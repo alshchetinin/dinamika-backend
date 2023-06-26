@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "mains",
+  "info": {
+    "singularName": "main",
+    "pluralName": "mains",
+    "displayName": "Главная",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "block.about",
+        "block.hero",
+        "block.block-advantages",
+        "block.horizontal-form"
+      ],
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

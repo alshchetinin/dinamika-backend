@@ -1,0 +1,119 @@
+{
+  "key": "plugin_content_manager_configuration_components::block.hero",
+  "value": {
+    "uid": "block.hero",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "preview",
+      "defaultSortBy": "preview",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Заголовок",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "button": {
+        "edit": {
+          "label": "Кнопка",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "button",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "Фоновое изображение",
+          "description": "Если не заполнить будет выводиться стандартная анимация с логотипом",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "preview": {
+        "edit": {
+          "label": "preview",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "preview",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "button",
+        "image"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "button",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "preview",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

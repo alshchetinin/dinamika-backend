@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_block_cases",
+  "info": {
+    "displayName": "case",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "case": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::case.case"
+    }
+  }
+}

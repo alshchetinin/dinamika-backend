@@ -1,0 +1,166 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::review.review",
+  "value": {
+    "uid": "api::review.review",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "client_name",
+      "defaultSortBy": "client_name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "review": {
+        "edit": {
+          "label": "Отзыв",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "review",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "client_name": {
+        "edit": {
+          "label": "ФИО Клиента",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "client_name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "client_job": {
+        "edit": {
+          "label": "Должность клиента",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "client_job",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "client_photo": {
+        "edit": {
+          "label": "Фото клиента",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "client_photo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "img_review": {
+        "edit": {
+          "label": "Рекомендательное письмо",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "img_review",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "review",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "client_name",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "client_job",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "client_photo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "img_review",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "review",
+        "client_name",
+        "client_job"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

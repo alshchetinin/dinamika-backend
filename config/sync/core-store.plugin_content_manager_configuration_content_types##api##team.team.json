@@ -1,0 +1,186 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::team.team",
+  "value": {
+    "uid": "api::team.team",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "ФИО",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "photo": {
+        "edit": {
+          "label": "Фото",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "photo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "job": {
+        "edit": {
+          "label": "Должность",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "job",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "year": {
+        "edit": {
+          "label": "Стаж",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "year",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "education": {
+        "edit": {
+          "label": "Образование",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "education",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "competencies": {
+        "edit": {
+          "label": "Компетенции",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "competencies",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "photo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "job",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "year",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "education",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "competencies",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "name",
+        "photo",
+        "job"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

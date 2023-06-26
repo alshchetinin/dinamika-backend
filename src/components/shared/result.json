@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_results",
+  "info": {
+    "displayName": "result",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "fact": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "list": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.list"
+    }
+  }
+}

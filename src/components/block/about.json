@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_block_abouts",
+  "info": {
+    "displayName": "О нас",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "fact": {
+      "displayName": "fact",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.fact"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "preview": {
+      "type": "customField",
+      "options": {
+        "url": "/uploads/2_83afa2b70c.png"
+      },
+      "customField": "plugin::componentpreview.preview"
+    }
+  }
+}

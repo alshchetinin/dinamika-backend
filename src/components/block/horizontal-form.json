@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_horizontal_forms",
+  "info": {
+    "displayName": "Горизонтальная форма",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.form"
+    }
+  }
+}

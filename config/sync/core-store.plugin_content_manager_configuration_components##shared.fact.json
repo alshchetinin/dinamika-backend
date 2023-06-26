@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::shared.fact",
+  "value": {
+    "uid": "shared.fact",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "text_1",
+      "defaultSortBy": "text_1",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text_1": {
+        "edit": {
+          "label": "text_1",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_1",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "fact": {
+        "edit": {
+          "label": "fact",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "fact",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text_2": {
+        "edit": {
+          "label": "text_2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text_2",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "text_1",
+        "fact",
+        "text_2"
+      ],
+      "edit": [
+        [
+          {
+            "name": "text_1",
+            "size": 6
+          },
+          {
+            "name": "fact",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "text_2",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

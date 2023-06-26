@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_forms",
+  "info": {
+    "displayName": "Форма",
+    "icon": "chartCircle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "buttonName": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

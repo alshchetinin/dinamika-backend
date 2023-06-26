@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_block_heroes",
+  "info": {
+    "displayName": "Хироблок",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "preview": {
+      "type": "customField",
+      "options": {
+        "url": "/uploads/1_9db00bd13f.png"
+      },
+      "customField": "plugin::componentpreview.preview"
+    }
+  }
+}

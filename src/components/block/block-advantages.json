@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_block_advantages",
+  "info": {
+    "displayName": "Преимущества - Направления",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "preimushhestva_napravleniyas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advantage.advantage"
+    }
+  }
+}

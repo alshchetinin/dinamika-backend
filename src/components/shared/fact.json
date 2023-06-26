@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_facts",
+  "info": {
+    "displayName": "fact",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "text_1": {
+      "type": "string",
+      "required": true
+    },
+    "fact": {
+      "type": "string",
+      "required": true
+    },
+    "text_2": {
+      "type": "string"
+    }
+  }
+}
