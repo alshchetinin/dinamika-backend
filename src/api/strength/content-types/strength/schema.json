@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "strengths",
   "info": {
     "singularName": "strength",
@@ -12,21 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "text",
-      "required": true
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
+    "strengths": {
+      "displayName": "strongs",
+      "type": "component",
+      "repeatable": true,
+      "component": "block.strongs",
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "max": 4,
+      "min": 4
     }
   }
 }

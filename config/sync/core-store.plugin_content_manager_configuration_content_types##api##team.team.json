@@ -76,34 +76,6 @@
           "sortable": true
         }
       },
-      "education": {
-        "edit": {
-          "label": "Образование",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "education",
-          "searchable": true,
-          "sortable": true
-        }
-      },
-      "competencies": {
-        "edit": {
-          "label": "Компетенции",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "competencies",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -134,6 +106,12 @@
       }
     },
     "layouts": {
+      "list": [
+        "id",
+        "name",
+        "photo",
+        "job"
+      ],
       "edit": [
         [
           {
@@ -158,25 +136,7 @@
             "name": "year",
             "size": 12
           }
-        ],
-        [
-          {
-            "name": "education",
-            "size": 12
-          }
-        ],
-        [
-          {
-            "name": "competencies",
-            "size": 12
-          }
         ]
-      ],
-      "list": [
-        "id",
-        "name",
-        "photo",
-        "job"
       ]
     }
   },

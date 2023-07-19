@@ -4,6 +4,45 @@
   "type": "public",
   "permissions": [
     {
+      "action": "api::advantage.advantage.find"
+    },
+    {
+      "action": "api::advantage.advantage.findOne"
+    },
+    {
+      "action": "api::case.case.find"
+    },
+    {
+      "action": "api::case.case.findOne"
+    },
+    {
+      "action": "api::contact.contact.find"
+    },
+    {
+      "action": "api::main.main.find"
+    },
+    {
+      "action": "api::review.review.find"
+    },
+    {
+      "action": "api::review.review.findOne"
+    },
+    {
+      "action": "api::strength.strength.find"
+    },
+    {
+      "action": "api::team.team.find"
+    },
+    {
+      "action": "api::team.team.findOne"
+    },
+    {
+      "action": "api::vacancie.vacancie.find"
+    },
+    {
+      "action": "api::vacancie.vacancie.findOne"
+    },
+    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {

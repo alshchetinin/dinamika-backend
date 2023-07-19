@@ -74,7 +74,8 @@
           "title",
           "task",
           "result",
-          "image"
+          "image",
+          "isMain"
         ]
       },
       "conditions": []
@@ -99,7 +100,8 @@
           "title",
           "task",
           "result",
-          "image"
+          "image",
+          "isMain"
         ]
       },
       "conditions": []
@@ -112,7 +114,8 @@
           "title",
           "task",
           "result",
-          "image"
+          "image",
+          "isMain"
         ]
       },
       "conditions": []
@@ -296,9 +299,9 @@
       "subject": "api::strength.strength",
       "properties": {
         "fields": [
-          "title",
-          "description",
-          "image"
+          "strengths.title",
+          "strengths.description",
+          "strengths.image"
         ]
       },
       "conditions": []
@@ -320,9 +323,9 @@
       "subject": "api::strength.strength",
       "properties": {
         "fields": [
-          "title",
-          "description",
-          "image"
+          "strengths.title",
+          "strengths.description",
+          "strengths.image"
         ]
       },
       "conditions": []
@@ -332,9 +335,9 @@
       "subject": "api::strength.strength",
       "properties": {
         "fields": [
-          "title",
-          "description",
-          "image"
+          "strengths.title",
+          "strengths.description",
+          "strengths.image"
         ]
       },
       "conditions": []
@@ -347,9 +350,7 @@
           "name",
           "photo",
           "job",
-          "year",
-          "education",
-          "competencies"
+          "year"
         ]
       },
       "conditions": []
@@ -368,9 +369,7 @@
           "name",
           "photo",
           "job",
-          "year",
-          "education",
-          "competencies"
+          "year"
         ]
       },
       "conditions": []
@@ -383,9 +382,7 @@
           "name",
           "photo",
           "job",
-          "year",
-          "education",
-          "competencies"
+          "year"
         ]
       },
       "conditions": []

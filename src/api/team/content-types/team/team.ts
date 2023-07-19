@@ -10,8 +10,6 @@ export interface Team {
     photo: { data: Media };
     job: string;
     year: string;
-    education: string;
-    competencies: string;
   };
 }
 export interface Team_Plain {
@@ -20,8 +18,6 @@ export interface Team_Plain {
   photo: Media;
   job: string;
   year: string;
-  education: string;
-  competencies: string;
 }
 
 export interface Team_NoRelations {
@@ -30,8 +26,6 @@ export interface Team_NoRelations {
   photo: number;
   job: string;
   year: string;
-  education: string;
-  competencies: string;
 }
 
 export interface Team_AdminPanelLifeCycle {
@@ -40,6 +34,4 @@ export interface Team_AdminPanelLifeCycle {
   photo: AdminPanelRelationPropertyModification<Media>;
   job: string;
   year: string;
-  education: string;
-  competencies: string;
 }

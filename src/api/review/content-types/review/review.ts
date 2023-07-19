@@ -8,8 +8,8 @@ export interface Review {
   attributes: {
     review: string;
     client_name: string;
-    client_job: string;
-    client_photo: { data: Media };
+    client_job?: string;
+    client_photo?: { data: Media };
     img_review?: { data: Media };
   };
 }
@@ -17,8 +17,8 @@ export interface Review_Plain {
   id: number;
   review: string;
   client_name: string;
-  client_job: string;
-  client_photo: Media;
+  client_job?: string;
+  client_photo?: Media;
   img_review?: Media;
 }
 
@@ -26,8 +26,8 @@ export interface Review_NoRelations {
   id: number;
   review: string;
   client_name: string;
-  client_job: string;
-  client_photo: number;
+  client_job?: string;
+  client_photo?: number;
   img_review?: number;
 }
 
@@ -35,7 +35,7 @@ export interface Review_AdminPanelLifeCycle {
   id: number;
   review: string;
   client_name: string;
-  client_job: string;
-  client_photo: AdminPanelRelationPropertyModification<Media>;
+  client_job?: string;
+  client_photo?: AdminPanelRelationPropertyModification<Media>;
   img_review?: AdminPanelRelationPropertyModification<Media>;
 }

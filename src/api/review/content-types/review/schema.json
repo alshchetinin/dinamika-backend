@@ -22,12 +22,12 @@
     },
     "client_job": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "client_photo": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]

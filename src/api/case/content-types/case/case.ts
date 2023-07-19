@@ -10,6 +10,7 @@ export interface Case {
     task: string;
     result: string;
     image: { data: Media };
+    isMain: boolean;
   };
 }
 export interface Case_Plain {
@@ -18,6 +19,7 @@ export interface Case_Plain {
   task: string;
   result: string;
   image: Media;
+  isMain: boolean;
 }
 
 export interface Case_NoRelations {
@@ -26,6 +28,7 @@ export interface Case_NoRelations {
   task: string;
   result: string;
   image: number;
+  isMain: boolean;
 }
 
 export interface Case_AdminPanelLifeCycle {
@@ -34,4 +37,5 @@ export interface Case_AdminPanelLifeCycle {
   task: string;
   result: string;
   image: AdminPanelRelationPropertyModification<Media>;
+  isMain: boolean;
 }
