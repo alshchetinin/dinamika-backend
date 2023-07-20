@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "personalnye_dannyes",
+  "info": {
+    "singularName": "personalnye-dannye",
+    "pluralName": "personalnye-dannyes",
+    "displayName": "Персональные данные"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
