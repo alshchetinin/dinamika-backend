@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "requisites",
+  "info": {
+    "singularName": "requisite",
+    "pluralName": "requisites",
+    "displayName": "Requisites"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pdf": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
