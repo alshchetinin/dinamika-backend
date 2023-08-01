@@ -5,26 +5,30 @@ export interface Vacancie {
   attributes: {
     title: string;
     description: string;
-    link: string;
+    link?: string;
+    content?: string;
   };
 }
 export interface Vacancie_Plain {
   id: number;
   title: string;
   description: string;
-  link: string;
+  link?: string;
+  content?: string;
 }
 
 export interface Vacancie_NoRelations {
   id: number;
   title: string;
   description: string;
-  link: string;
+  link?: string;
+  content?: string;
 }
 
 export interface Vacancie_AdminPanelLifeCycle {
   id: number;
   title: string;
   description: string;
-  link: string;
+  link?: string;
+  content?: string;
 }

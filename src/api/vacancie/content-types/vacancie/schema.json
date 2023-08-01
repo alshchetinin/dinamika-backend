@@ -22,7 +22,11 @@
     },
     "link": {
       "type": "string",
-      "required": true
+      "required": false
+    },
+    "content": {
+      "type": "richtext",
+      "required": false
     }
   }
 }
