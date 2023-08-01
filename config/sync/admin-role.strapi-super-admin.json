@@ -242,6 +242,120 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
+      "subject": "api::personalnye-dannye.personalnye-dannye",
+      "properties": {
+        "fields": [
+          "title",
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::personalnye-dannye.personalnye-dannye",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::personalnye-dannye.personalnye-dannye",
+      "properties": {
+        "fields": [
+          "title",
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::personalnye-dannye.personalnye-dannye",
+      "properties": {
+        "fields": [
+          "title",
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::policy.policy",
+      "properties": {
+        "fields": [
+          "title",
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::policy.policy",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::policy.policy",
+      "properties": {
+        "fields": [
+          "title",
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::policy.policy",
+      "properties": {
+        "fields": [
+          "title",
+          "content"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::requisite.requisite",
+      "properties": {
+        "fields": [
+          "pdf"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::requisite.requisite",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::requisite.requisite",
+      "properties": {
+        "fields": [
+          "pdf"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::requisite.requisite",
+      "properties": {
+        "fields": [
+          "pdf"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
       "subject": "api::review.review",
       "properties": {
         "fields": [
@@ -394,7 +508,8 @@
         "fields": [
           "title",
           "description",
-          "link"
+          "link",
+          "content"
         ]
       },
       "conditions": []
@@ -418,7 +533,8 @@
         "fields": [
           "title",
           "description",
-          "link"
+          "link",
+          "content"
         ]
       },
       "conditions": []
@@ -430,7 +546,8 @@
         "fields": [
           "title",
           "description",
-          "link"
+          "link",
+          "content"
         ]
       },
       "conditions": []
