@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "sotrudnichestvos",
+  "info": {
+    "singularName": "sotrudnichestvo",
+    "pluralName": "sotrudnichestvos",
+    "displayName": "Сотрудничество"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

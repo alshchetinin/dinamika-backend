@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_block_blok_s_osnovatelem_kompanii",
+  "info": {
+    "displayName": "Блок с основателем компании"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

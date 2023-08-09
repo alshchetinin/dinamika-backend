@@ -32,6 +32,12 @@
       "type": "string",
       "required": true,
       "regex": "^((\\-?|\\+?)?\\d+(\\.\\d+)?),\\s*((\\-?|\\+?)?\\d+(\\.\\d+)?)$"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.hero",
+      "required": true
     }
   }
 }

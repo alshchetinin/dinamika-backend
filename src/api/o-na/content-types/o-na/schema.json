@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "o_nas",
+  "info": {
+    "singularName": "o-na",
+    "pluralName": "o-nas",
+    "displayName": "O нас"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "fact_text": {
+      "type": "string",
+      "required": true
+    },
+    "fact_number": {
+      "type": "string",
+      "required": true
+    },
+    "fact_text_2": {
+      "type": "string",
+      "required": true
+    },
+    "block_history": {
+      "displayName": "Блок история о компании",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.blok-istoriya-o-kompanii",
+      "required": true
+    }
+  }
+}

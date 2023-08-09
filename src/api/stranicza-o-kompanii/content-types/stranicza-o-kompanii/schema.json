@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "stranicza_o_kompaniis",
+  "info": {
+    "singularName": "stranicza-o-kompanii",
+    "pluralName": "stranicza-o-kompaniis",
+    "displayName": "Страница о компании",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.hero",
+      "required": true
+    },
+    "CEO": {
+      "displayName": "Блок с основателем компании",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.blok-s-osnovatelem-kompanii",
+      "required": true
+    },
+    "team": {
+      "displayName": "Мы команда",
+      "type": "component",
+      "repeatable": false,
+      "component": "block.my-komanda"
+    }
+  }
+}

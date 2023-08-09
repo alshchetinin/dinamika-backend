@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "mains",
+  "collectionName": "stranicza_otzyvies",
   "info": {
-    "singularName": "main",
-    "pluralName": "mains",
-    "displayName": "Главная",
-    "description": ""
+    "singularName": "stranicza-otzyvy",
+    "pluralName": "stranicza-otzyvies",
+    "displayName": "Страница отзывы"
   },
   "options": {
     "draftAndPublish": false

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "mains",
+  "collectionName": "straniczu_kejsies",
   "info": {
-    "singularName": "main",
-    "pluralName": "mains",
-    "displayName": "Главная",
+    "singularName": "straniczu-kejsy",
+    "pluralName": "straniczu-kejsies",
+    "displayName": "Страница кейсы",
     "description": ""
   },
   "options": {

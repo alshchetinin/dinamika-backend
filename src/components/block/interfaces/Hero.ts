@@ -9,19 +9,19 @@ export interface Hero {
   title: string;
   button?: Button;
   image?: { data: Media };
-  preview?: any;
+  video?: { data: Media };
 }
 export interface Hero_Plain {
   title: string;
   button?: Button_Plain;
   image?: Media;
-  preview?: any;
+  video?: Media;
 }
 
 export interface Hero_NoRelations {
   title: string;
   button?: Button_NoRelations;
   image?: number;
-  preview?: any;
+  video?: number;
 }
 

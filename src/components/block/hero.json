@@ -25,12 +25,13 @@
         "images"
       ]
     },
-    "preview": {
-      "type": "customField",
-      "options": {
-        "url": "/uploads/1_9db00bd13f.png"
-      },
-      "customField": "plugin::componentpreview.preview"
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
     }
   }
 }

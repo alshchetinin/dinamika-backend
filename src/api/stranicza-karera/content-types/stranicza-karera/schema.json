@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "stranicza_kareras",
+  "info": {
+    "singularName": "stranicza-karera",
+    "pluralName": "stranicza-kareras",
+    "displayName": "Страница карьера",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.hero",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

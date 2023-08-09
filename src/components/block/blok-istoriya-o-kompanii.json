@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_blok_istoriya_o_kompanii",
+  "info": {
+    "displayName": "Блок история о компании"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

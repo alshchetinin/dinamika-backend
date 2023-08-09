@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_block_my_komanda",
+  "info": {
+    "displayName": "Мы команда",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description1": {
+      "type": "text",
+      "required": true
+    },
+    "description2": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

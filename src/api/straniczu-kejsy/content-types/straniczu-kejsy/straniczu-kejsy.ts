@@ -4,23 +4,23 @@ import { Hero } from '../../../../components/block/interfaces/Hero';
 import { Hero_Plain } from '../../../../components/block/interfaces/Hero';
 import { Hero_NoRelations } from '../../../../components/block/interfaces/Hero';
 
-export interface Main {
+export interface StraniczuKejsy {
   id: number;
   attributes: {
     hero: Hero;
   };
 }
-export interface Main_Plain {
+export interface StraniczuKejsy_Plain {
   id: number;
   hero: Hero_Plain;
 }
 
-export interface Main_NoRelations {
+export interface StraniczuKejsy_NoRelations {
   id: number;
   hero: Hero_NoRelations;
 }
 
-export interface Main_AdminPanelLifeCycle {
+export interface StraniczuKejsy_AdminPanelLifeCycle {
   id: number;
   hero: Hero_Plain;
 }
